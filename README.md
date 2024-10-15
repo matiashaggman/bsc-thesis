@@ -7,6 +7,7 @@ polysomnography, including an electroencephalography (EEG) analysis by a medical
 professional. For this reason, standard sleep staging is not a viable solution for
 long-term studies of sleep at-home, and alternative methods are needed that allow
 objective monitoring of sleep in the child’s natural sleep environment.
+
 Ranta et al. (2021) have developed NApping PAnts (NAPPA), a wearable sensor for
 infants that uses an accelerometer and a gyroscope to record abdominal movements
 during sleep. We have developed a Bidirectional Gated Recurrent Unit -based
@@ -23,6 +24,7 @@ of infants impacts the features recorded by the NAPPA system, and subsequently
 we attempt to find methods to refine the classifier’s performance in sleep staging,
 addressing the dynamic nature of infant sleep patterns and the impact of age on
 sleep behavior.
+
 We found a distinct relationship between the age of infants and recorded features and
 age and model performance. Our proposed methods, however, did not ultimately
 offer any improvement in model performance. Despite the lack of improvement in
